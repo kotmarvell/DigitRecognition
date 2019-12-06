@@ -12,12 +12,12 @@ namespace DigitRecognition
         public int limit = 9; // Порог - выбран экспериментально, для быстрого обучения
         public int sum; // Тут сохраним сумму масштабированных сигналов
 
-        public Neuron(int sizex, int sizey, int[,] inP) // Задаем свойства при создании объекта
+        public Neuron(int sizeX, int sizeY, int[,] inP)
         {
-            weight = new int[sizex, sizey]; // Определяемся с размером массива (число входов)
-            mul = new int[sizex, sizey];
+            weight = new int[sizeX, sizeY];
+            mul = new int[sizeX, sizeY];
 
-            input = new int[sizex, sizey];
+            input = new int[sizeX, sizeY];
             input = inP; // Получаем входные данные
         }
 
@@ -26,9 +26,9 @@ namespace DigitRecognition
         /// </summary>
         public void Mul_n()
         {
-            for (int x = 0; x <= 2; x++)
+            for (int x = 0; x < 5; x++)
             {
-                for (int y = 0; y <= 4; y++) // Пробегаем по каждому аксону
+                for (int y = 0; y < 3; y++) // Пробегаем по каждому аксону
                 {
                     mul[x, y] = input[x, y] * weight[x, y]; // Умножаем его сигнал (0 или 1) на его собственный вес и сохраняем в массив.
                 }
@@ -38,12 +38,12 @@ namespace DigitRecognition
         /// <summary>
         /// Сложение
         /// </summary>
-        public void Sum()
+        public void ActivationAmount()
         {
             sum = 0;
-            for (int x = 0; x <= 2; x++)
+            for (int x = 0; x <= 4; x++)
             {
-                for (int y = 0; y <= 4; y++)
+                for (int y = 0; y <= 2; y++)
                 {
                     sum += mul[x, y];
                 }
@@ -54,12 +54,34 @@ namespace DigitRecognition
         /// Сравнение
         /// </summary>
         /// <returns></returns>
-        public bool Rez()
+        public bool Rezult()
         {
             if (sum >= limit)
                 return true;
             else
                 return false;
+        }
+
+        public void incWeight(int[,] inP)
+        {
+            for (int x = 0; x < 5; x++)
+            {
+                for (int y = 0; y < 3; y++)
+                {
+                    weight[x, y] += inP[x, y];
+                }
+            }
+        }
+
+        public void decWweight(int[,] inP)
+        {
+            for (int x = 0; x < 5; x++)
+            {
+                for (int y = 0; y < 3; y++)
+                {
+                    weight[x, y] -= inP[x, y];
+                }
+            }
         }
     }
 }
