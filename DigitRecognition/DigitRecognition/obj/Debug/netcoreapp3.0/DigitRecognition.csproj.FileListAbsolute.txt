@@ -1,0 +1,17 @@
+E:\DigitRecognition\DigitRecognition\DigitRecognition\bin\Debug\netcoreapp3.0\DigitRecognition.exe
+E:\DigitRecognition\DigitRecognition\DigitRecognition\bin\Debug\netcoreapp3.0\DigitRecognition.deps.json
+E:\DigitRecognition\DigitRecognition\DigitRecognition\bin\Debug\netcoreapp3.0\DigitRecognition.runtimeconfig.json
+E:\DigitRecognition\DigitRecognition\DigitRecognition\bin\Debug\netcoreapp3.0\DigitRecognition.runtimeconfig.dev.json
+E:\DigitRecognition\DigitRecognition\DigitRecognition\bin\Debug\netcoreapp3.0\DigitRecognition.dll
+E:\DigitRecognition\DigitRecognition\DigitRecognition\bin\Debug\netcoreapp3.0\DigitRecognition.pdb
+E:\DigitRecognition\DigitRecognition\DigitRecognition\obj\Debug\netcoreapp3.0\DigitRecognition.csprojAssemblyReference.cache
+E:\DigitRecognition\DigitRecognition\DigitRecognition\obj\Debug\netcoreapp3.0\DigitRecognition.AssemblyInfoInputs.cache
+E:\DigitRecognition\DigitRecognition\DigitRecognition\obj\Debug\netcoreapp3.0\DigitRecognition.AssemblyInfo.cs
+E:\DigitRecognition\DigitRecognition\DigitRecognition\obj\Debug\netcoreapp3.0\DigitRecognition.dll
+E:\DigitRecognition\DigitRecognition\DigitRecognition\obj\Debug\netcoreapp3.0\DigitRecognition.pdb
+E:\DigitRecognition\DigitRecognition\DigitRecognition\bin\Debug\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\DigitRecognition\DigitRecognition\DigitRecognition\bin\Debug\netcoreapp3.0\System.Drawing.Common.dll
+E:\DigitRecognition\DigitRecognition\DigitRecognition\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\DigitRecognition\DigitRecognition\DigitRecognition\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\DigitRecognition\DigitRecognition\DigitRecognition\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\DigitRecognition\DigitRecognition\DigitRecognition\obj\Debug\netcoreapp3.0\DigitRecognition.csproj.CopyComplete
