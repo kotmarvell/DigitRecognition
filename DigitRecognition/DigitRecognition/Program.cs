@@ -13,7 +13,7 @@ namespace DigitRecognition
             {
                 int[,] input = new int[5, 3];
                 Neuron meNeuron = new Neuron(5, 3, input);
-                string path = "E:/DigitRecognition/DigitRecognition/DigitRecognition/input/pattern_8.txt";
+                string path = "E:/DigitRecognition/DigitRecognition/DigitRecognition/input/pattern_9.txt";
 
                 StreamReader sr = new StreamReader(path); // Загружаем файл весов
                 string line;
