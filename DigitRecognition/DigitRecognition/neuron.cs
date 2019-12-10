@@ -62,6 +62,10 @@ namespace DigitRecognition
                 return false;
         }
 
+        /// <summary>
+        /// Если ответ "false" неверный
+        /// </summary>
+        /// <param name="inP"></param>
         public void incWeight(int[,] inP)
         {
             for (int x = 0; x < 5; x++)
@@ -73,6 +77,10 @@ namespace DigitRecognition
             }
         }
 
+        /// <summary>
+        /// Если ответ "true" неверный
+        /// </summary>
+        /// <param name="inP"></param>
         public void decWweight(int[,] inP)
         {
             for (int x = 0; x < 5; x++)
