@@ -8,7 +8,7 @@ namespace DigitRecognition
     public static class InputImages
     {
         /// <summary>
-        /// Чтение всех изображений. на которых мы хотим что-то найти
+        /// Чтение всех изображений, на которых мы хотим что-то найти
         /// </summary>
         public static List<string> Input()
         {
@@ -36,7 +36,7 @@ namespace DigitRecognition
         public static List<ColorFloatPixel[,]> ImagesToCheck(List<string> imagesName)
         {
             List<ColorFloatPixel[,]> pixelImages = new List<ColorFloatPixel[,]>();
-            string path = "E:/DigitRecognition/DigitRecognition/assets/";
+            string path = "E:/DigitRecognition/DigitRecognition/DigitRecognition/assets/";
             for (int i = 0; i < imagesName.Count; i++)
             {
                 string InputFileName = path + imagesName[i];
@@ -46,6 +46,5 @@ namespace DigitRecognition
 
             return pixelImages;
         }
-
     }
 }
