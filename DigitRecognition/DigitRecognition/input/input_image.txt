@@ -1,1 +1,10 @@
-znak.jpg
+znak_0.jpg
+znak_1.jpg
+znak_2.jpg
+znak_3.jpg
+znak_4.jpg
+znak_5.jpg
+znak_6.jpg
+znak_7.jpg
+znak_8.jpg
+znak_9.jpg
